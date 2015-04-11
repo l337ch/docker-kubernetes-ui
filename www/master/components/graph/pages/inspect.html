@@ -1,0 +1,20 @@
+<div ng-controller="InspectNodeCtrl" flex layout="row" layout-fill>
+  <div flex layout="column" layout-fill>
+    <md-toolbar class="dashboard-subnav">
+      <div class="md-toolbar-tools-small md-toolbar-tools">
+      <md-button id="backButton" class="icon-button" aria-label="PlayPause" ng-click="backToGraph()">
+        <md-icon md-svg-src="components/graph/img/BackButton.svg"></md-icon>
+        <paper-ripple class="circle recenteringTouch" fit></paper-ripple>
+      </md-button>
+      <h1 class="md-toolbar-tools">
+        <span>{{element}}</span>
+        </h1>
+      </div>
+    </md-toolbar>
+    <md-content layout="row">
+      <div class="md-tile-content">
+        <div json-human="metadata"></div>
+      </div>
+    </md-content>
+  </div>
+</div>

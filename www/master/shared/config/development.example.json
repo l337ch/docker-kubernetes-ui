@@ -1,0 +1,9 @@
+{
+  "k8sApiServer": "http://104.154.38.73:8001/api/v1beta2",
+  "k8sDataServer": "http://104.154.38.73:5555/cluster",
+  "k8sDataPollMinIntervalSec": 10,
+  "k8sDataPollMaxIntervalSec": 120,
+  "k8sDataPollErrorThreshold": 5,
+  "cAdvisorProxy": "http://104.154.38.73/proxy?TARGET=",
+  "cAdvisorPort": "4194"
+}

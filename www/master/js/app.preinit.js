@@ -1,1 +1,0 @@
-var componentNamespaces = ["kubernetesApp.components.dashboard", "kubernetesApp.components.graph"];

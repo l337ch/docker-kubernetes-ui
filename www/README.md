@@ -118,4 +118,4 @@ running at port 8000.
   should show the test results.
 
 To write new protractor tests, put the test files (`*.spec.js`) in the
-corresponding `www/master/protractor/` directory.
+corresponding `www/master/components/**/protractor/` directory.

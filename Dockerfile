@@ -1,4 +1,4 @@
-FROM dockerfile/nodejs
+FROM google/nodejs
 MAINTAINER Lee Chang <leetchang@gmail.com>
 
 RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y supervisor

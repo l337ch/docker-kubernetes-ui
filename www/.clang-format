@@ -1,9 +1,0 @@
----
-BasedOnStyle: Google
----
-Language: JavaScript
-# Limit the line length to 120 characters.
-ColumnLimit: 120
-# At most one empty line between code blocks.
-MaxEmptyLinesToKeep: 1
-...

@@ -7,7 +7,9 @@ ADD etc/supervisor/conf.d/kubernetes-ui.conf /etc/supervisor/conf.d/kubernetes-u
 
 ADD www /opt/www
 
-RUN cd /opt/www/master && npm install
+WORKDIR /opt/www/master
+
+RUN npm install
 
 RUN npm install -g http-server
 

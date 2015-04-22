@@ -5,9 +5,9 @@
       .service('cAdvisorService', function($http, $q, ENV) {
         var _baseUrl = function(minionIp) {
           var minionPort = ENV['/']['cAdvisorPort'] || "8081";
-          var proxy = ENV['/']['cAdvisorProxy'] || "";
+          var proxy = ENV['/']['cAdvisorProxy'] || "/api/v1beta2/proxy/nodes/";
 
-          return proxy + 'http://' + minionIp + ':' + minionPort + '/api/v1.0/';
+          return proxy + minionIp + ':' + minionPort + '/api/v1.0/';
         };
 
         this.getMachineInfo = getMachineInfo;

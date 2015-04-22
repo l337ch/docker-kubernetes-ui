@@ -4,7 +4,7 @@ angular.module('kubernetesApp.services', ['kubernetesApp.config']);
 app.config([
   '$routeProvider',
   function($routeProvider) {
-    $routeProvider.when("/404", {templateUrl: "/views/partials/404.html"})
+    $routeProvider.when("/404", {templateUrl: "views/partials/404.html"})
         // else 404
         .otherwise({redirectTo: "/404"});
   }

@@ -22,14 +22,14 @@ app.directive('includeReplace',
                function() {
                  'use strict';
                  return {
-                   templateUrl: "/views/partials/kubernetes-ui-menu.tmpl.html"
+                   templateUrl: "views/partials/kubernetes-ui-menu.tmpl.html"
                  };
                })
     .directive('menuToggle', function() {
       'use strict';
       return {
         scope: {section: '='},
-        templateUrl: '/views/partials/menu-toggle.tmpl.html',
+        templateUrl: 'views/partials/menu-toggle.tmpl.html',
         link: function($scope, $element) {
           var controller = $element.parent().controller();
 

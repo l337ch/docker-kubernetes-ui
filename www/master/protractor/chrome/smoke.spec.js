@@ -9,9 +9,9 @@ describe('Kubernetes UI Chome', function() {
     dashboardTab.click();
     expect(browser.getLocationAbsUrl()).toBe('/dashboard/');
 
-    var graphTab = element(by.id('tab_002'));
-    expect(graphTab).toBeDefined();
-    graphTab.click();
-    expect(browser.getLocationAbsUrl()).toBe('/graph/');
+    // var graphTab = element(by.id('tab_002'));
+    // expect(graphTab).toBeDefined();
+    // graphTab.click();
+    // expect(browser.getLocationAbsUrl()).toBe('/graph/');
   });
 });

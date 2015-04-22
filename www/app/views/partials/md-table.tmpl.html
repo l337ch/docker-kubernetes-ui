@@ -31,7 +31,7 @@
   <span flex></span>
   <span ng-show="nbOfPages() > 1">
     <md-button aria-label="Back" class="md-table-footer-item" ng-disabled="currentPage==0" ng-click="currentPage=currentPage-1">
-      <img src="http://google.github.io/material-design-icons/hardware/svg/ic_keyboard_arrow_left_24px.svg">
+      <img src="//google.github.io/material-design-icons/hardware/svg/ic_keyboard_arrow_left_24px.svg">
     </md-button>
     <a href ng-repeat="i in getNumber(nbOfPages()) track by $index" >
       <md-button aria-label="Next" class="md-primary md-table-footer-item" ng-click="goToPage($index)">
@@ -39,7 +39,7 @@
       </md-button>
     </a>
     <md-button aria-label="Jump" class="md-table-footer-item" ng-disabled="currentPage==nbOfPages()-1" ng-click="currentPage=currentPage+1">
-      <img src="http://google.github.io/material-design-icons/hardware/svg/ic_keyboard_arrow_right_24px.svg">
+      <img src="//google.github.io/material-design-icons/hardware/svg/ic_keyboard_arrow_right_24px.svg">
     </md-button>
   </span>
 </div>
